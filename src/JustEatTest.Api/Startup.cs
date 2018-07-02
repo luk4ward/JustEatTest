@@ -11,7 +11,6 @@ using Serilog;
 using StructureMap;
 using JustEatTest.Api.Infrastructure;
 using System;
-using JustEatTest.Domain.Infrastructure;
 
 namespace JustEatTest.Api
 {
