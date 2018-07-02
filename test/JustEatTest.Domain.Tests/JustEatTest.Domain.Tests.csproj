@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\JustEatTest.Domain\JustEatTest.Domain.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.7.1"/>
+    <PackageReference Include="NUnitTestAdapter" Version="2.1.1"/>
+    <PackageReference Include="Nunit3testadapter" Version="3.8.0-alpha1"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0"/>
+    <PackageReference Include="Moq" Version="4.7.99"/>
+    <PackageReference Include="FluentAssertions" Version="4.19.3"/>
+  </ItemGroup>
+</Project>
